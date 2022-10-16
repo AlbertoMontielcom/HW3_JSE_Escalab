@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="survey"> 
+        <header>
+            <h1 class="header__logotext">Migros</h1>
+            <figure class="logo"><img src="./img/logo.png"></figure>
+        </header>
+    
+        <main class="quiz">
+            <div id="welcomescreen" class="welcomescreen">
+
+                <h2 class="main__title1">Danos tu opinión</h2>
+                <p>En MIGROS estamos ansiosos por escuchar tu opinión!</p>
+                <h5>Encuesta de Satisfacción</h5>
+
+                <input class="username" id="username_id" type="text" placeholder ="Nombre de usuario">
+                <button id="welcome_btn" class="quiz__btn">COMENZAR ✓</button>
+                <button id="resumen_btn" class="quiz__btn">VER ENCUESTAS ✓</button>
+            
+            </div>
+
+            <div id="questionscreen" class="questionscreen">
+
+            </div>
+            
+            <div id="resultscreen" class="resultscreen">
+                <h1>Gracias por tu tiempo!</h1>
+               <!-- <p>A continuación podrás ver una lista otros usuarios y sus respuestas:</p> -->
+
+               <h2 class="quiz__subtitle">Gracias</h2>
+               <!-- <h2 class="quiz__subtitle">Resultados</h2> -->
+
+               <!-- <p class="quiz__description"><span id="correctAnswers">X</span> -->
+                    <!-- correctas de <span class="numberOfQuestions">Y</span></p> -->
+                    Sus respuestas fueron almacenadas!<br>
+                     <button id="inicio_btn" class="quiz__btn">Inicio ✓</button>
+
+            </div>
+
+            <div id="resumenscreen" class="resumenscreen">
+
+              <button id="regresar_btn" class="quiz__btn">Inicio ✓</button>
+
+            </div>
+
+            <div id="usuarioregistrado" class="hidden">
+            <button id="regresar_btn2" class="quiz__btn">Volver ✓</button>
+        </div>
+        </main>
+        <script src="app.js"></script>
+        
+    </section>
+</body>
+
+</html>
